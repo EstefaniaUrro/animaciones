@@ -5,20 +5,42 @@ body {
   background: url("../img/fondo.jpg");
   background-size: cover;
 }
-.container h1 {
-  font-size: 35px;
+h1,
+h3 {
+  font-size: 3vw;
   text-align: center;
   color: white !important;
-  margin-bottom: 50px;
+  margin-bottom: 25px !important;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.container h3 {
-  font-size: 15px;
-  text-align: center;
-  color: white;
+.row {
+  height: 50% !important;
+  margin-bottom: 5%;
 }
-.col {
-  margin-bottom: 60px;
+@media screen and (min-width: 991px) {
+  .container h3 {
+    font-size: 1vw;
+  }
+}
+@media screen and (max-width: 990px) {
+  .container h3 {
+    font-size: 2vw;
+    margin-bottom: 15px !important;
+  }
+  .col {
+    margin: 10px;
+    height: 180px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container h3 {
+    font-size: 2vw;
+    margin-bottom: 15px !important;
+  }
+  .col {
+    margin: 5px;
+    height: 130px;
+  }
 }
 .card {
   border: none !important;
@@ -145,7 +167,4 @@ div {
     -o-filter:sepia(1);
     transform:scale(1.2) rotate(-25deg);
     filter:sepia(1);*/
-}
-.row {
-  height: 350px !important;
 }
