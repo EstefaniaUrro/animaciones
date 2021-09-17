@@ -2,7 +2,7 @@ body {
   padding: 10px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background: url("../img/fondo.jpg");
+  background: rgba(rgb(21, 73, 122), rgba(51, 99, 24, 0.651), rgb(56, 29, 13), rgb(185, 45, 127));
   background-size: cover;
 }
 h1,
