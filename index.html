@@ -5,120 +5,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
-    <link rel="stylesheet" media="all" href="css/estilos.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <link rel="stylesheet" media="all" href="css/estilos.css" type="text/css">
 </head>
+
 <body>
-    <div class="container">
-        <h1>Filtros</h1>
-        <div class="row row-cols-1 row-cols-md-5 g-4">
-            <div class="col">
-                <div class="card mh-100 w-100" id="desenfoque">
+    <main class="container">
+        <h2>Filters & Transform CSS</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <div id="desenfoque">
                     <h3>Blur</h3>
-                    <img src="img/gato.jpg" class="img-fluid" alt="..." />
+                    <img src="img/beach.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="Blur"/>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card mh-100 w-100" id="grises">
+                <div id="grises">
                     <h3>Grayscale</h3>
-                    <img src="img/gato.jpg" class="img-fluid" alt="..." />
+                    <img src="img/boats.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="Grayscale"/>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card mh-100 w-100" id="sepia">
-                    <h3>Sepia</h3>
-                    <img src="img/gato.jpg" class="img-fluid" alt="..." />
-                </div>
-            </div>
-            <div class="col">
-                <div class="card mh-100 w-100" id="brillo">
-                    <h3>Brightness</h3>
-                    <img src="img/gato.jpg" class="img-fluid" alt="..." />
-                </div>
-            </div>
-            <div class="col">
-                <div class="card mh-100 w-100" id="contraste">
-                    <h3>Contrast</h3>
-                    <img src="img/gato.jpg" class="img-fluid" alt="..." />
-                </div>
-            </div>
-        </div>
-        <div class="row row-cols-1 row-cols-md-5 g-4">
-            <div class="col">
-                <div class="card mh-100 w-100" id="tono">
-                    <h3>Hue-Rotate</h3>
-                    <img src="img/gato.jpg" class="img-fluid" alt="..." />
-                </div>
-            </div>
-            <div class="col">
-                <div class="card mh-100 w-100" id="negativo">
-                    <h3>Invert</h3>
-                    <img src="img/gato.jpg" class="img-fluid" alt="..." />
-                </div>
-            </div>
-            <div class="col">
-                <div class="card mh-100 w-100" id="saturacion">
-                    <h3>Saturate</h3>
-                    <img src="img/gato.jpg" class="img-fluid" alt="..." />
-                </div>
-            </div>
-            <div class="col">
-                <div class="card m-75 w-100" id="opacidad">
-                    <h3>Opacity</h3>
-                    <img src="img/gato.jpg" class="img-fluid" alt="..." />
-                </div>
-            </div>
-            <div class="col">
-                <div class="card mh-100 w-100" id="sombra">
+                <div id="sombra">
                     <h3>Drop-Shadow</h3>
-                    <img src="img/gato.jpg" class="img-fluid" alt="..." />
+                    <img src="img/sky.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="Shadow"/>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <h1>Transformaciones</h1>
-        <div class="row row-cols-1 row-cols-md-4 g-4">
-            <div class="col">
-                <div class="card mh-100 w-100" id="mover">
-                    <h3>Translate</h3>
-                    <img src="img/jirafa.jpg" class="img-fluid" alt="..." />
+                <div id="opacidad">
+                    <h3>Opacity</h3>
+                    <img src="img/rocks.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="Opacity"/>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card mh-100 w-100" id="escala">
-                    <h3>Scale</h3>
-                    <img src="img/jirafa.jpg" class="img-fluid" alt="..." />
-                </div>
-            </div>
-            <div class="col">
-                <div class="card mh-100 w-100" id="rotar">
-                    <h3>Rotare</h3>
-                    <img src="img/jirafa.jpg" class="img-fluid" alt="..." />
-                </div>
-            </div>
-            <div class="col">
-                <div class="card mh-100 w-100" id="perspectiva">
+                <div id="perspectiva">
                     <h3>Skew</h3>
-                    <img src="img/jirafa.jpg" class="img-fluid" alt="..." />
+                    <img src="img/river.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="Skew"/>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="container w-25">
-        <h1>Mix</h1>
-        <div class="col">
-            <div class="card">
-                <div class="text-center" id="mixdos">
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <div id="sepia">
+                    <h3>Sepia</h3>
+                    <img src="img/boat.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="Sepia"/>
+                </div>
+                <div id="tono">
+                    <h3>Hue-Rotate</h3>
+                    <img src="img/water.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="Rotate"/>
+                </div>
+                <div id="brillo">
+                    <h3>Invert</h3>
+                    <img src="img/tower.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="Invert"/>
+                </div>
+                <div id="escala">
+                    <h3>Scale</h3>
+                    <img src="img/auroras.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="Scale"/>
+                </div>
+                <div id="mover">
+                    <h3>Translate</h3>
+                    <img src="img/island.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="Translate"/>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <div id="contraste">
+                    <h3>Contrast</h3>
+                    <img src="img/castle.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="Contrast"/>
+                </div>
+                <div id="brillo">
+                    <h3>Brightness</h3>
+                    <img src="img/mountain.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="Brightness"/>
+                </div>
+                <div id="tono">
+                    <h3>Saturate</h3>
+                    <img src="img/silhouette.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="Saturate"/>
+                </div>
+                <div id="rotar">
+                    <h3>Rotare</h3>
+                    <img src="img/tree.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="Rotate"/>
+                </div>
+                <div id="mixdos">
                     <h3>Scale & Hue-Rotate</h3>
-                    <img src="img/perro.jpg" class="img-fluid mh-50 w-75" alt="..." />
+                    <img src="img/desert.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="Scale & Hue-Rotate"/>
                 </div>
             </div>
         </div>
-    </div>
+    </main> 
+    <footer>
+        <p> &copy; <strong>Created by <a href="https://github.com/EstefaniaUrro">Estefania Urro</a></p>
+    </footer>
 </body>
+
 </html>
